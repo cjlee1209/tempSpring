@@ -2,11 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Git</title>
+    <title>GIT TEST</title>
 </head>
 <body>
-    아이디<input type="text" id="uid"/>
-    비밀번호<input type="password" id="upwd"/>
-    <input type="submit" id="login" value="로그인"/>
+
+    <form action="index2.html" method="GET">
+            <table border="1">
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" name="id" id="id" value="jey"></td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+
+            </table>
+
+            <div>
+                <label for="session" style="cursor: pointer">
+                <input type="checkbox" name="session" id="session"/> 로그인 계속 유지 </label>
+                <input type="submit" value="로그인"> </br></br>
+                <input type="radio" name="test" id="test" value="test">
+                <input type="hidden" name="cnt" id="cnt">
+                <select name="select" id="select">
+
+                    <option value="op1">서울</option>
+                    <option value="op2">경기</option>
+                    <option value="op3">인천</option>
+                    <option value="op4">강원</option>
+                    <option value="op5">충청</option>
+
+                </select>
+                
+            </div> 
+            
+        </form>
+    
 </body>
 </html>
